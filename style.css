@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(107, 107, 241);
+    font: normal 15pt Arial;
+    padding: 2%;
+}
+
+header{
+    color: white;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    max-width: 500px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.363);
+}
+section #msg{
+    margin-bottom: 10px;
+}
+#foto img{
+    max-width: 300px;
+}
+
+footer{
+    color: white;
+    font-style: italic;
+}
